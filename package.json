@@ -1,0 +1,59 @@
+{
+  "name": "基础",
+  "tags": [
+    "NG-ALAIN"
+  ],
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --disable-host-check",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~13.3.0",
+    "@angular/common": "~13.3.0",
+    "@angular/compiler": "~13.3.0",
+    "@angular/core": "~13.3.0",
+    "@angular/forms": "~13.3.0",
+    "@angular/platform-browser": "~13.3.0",
+    "@angular/platform-browser-dynamic": "~13.3.0",
+    "@angular/router": "~13.3.0",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4",
+    "ng-zorro-antd": "^13.1.1",
+    "date-fns": "*",
+    "@delon/theme": "~13.5.1",
+    "@delon/abc": "~13.5.1",
+    "@delon/chart": "~13.5.1",
+    "@delon/acl": "~13.5.1",
+    "@delon/auth": "~13.5.1",
+    "@delon/cache": "~13.5.1",
+    "@delon/mock": "~13.5.1",
+    "@delon/form": "~13.5.1",
+    "@delon/util": "~13.5.1",
+    "ajv": "^8.10.0",
+    "ajv-formats": "^2.1.1",
+    "@angular/cdk": "13",
+    "@ant-design/icons-angular": "13",
+    "ngx-countdown": "13"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~13.3.3",
+    "@angular/cli": "~13.3.3",
+    "@angular/compiler-cli": "~13.3.0",
+    "@types/jasmine": "~3.10.0",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~4.0.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.1.0",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "typescript": "~4.6.2"
+  }
+}
